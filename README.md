@@ -5,9 +5,13 @@ Introduction
 This system helps businesses
 automate repetitive marketing tasks, allowing you to focus on what matters most. With our
 advanced AI-powered workflows, you'll experience:
+
+
 ● 85% Time Saved on Manual Tasks
 ● 93% Accuracy Improvement in Content Creation
 ● 40% Average Cost Reduction for Marketing Operation
+
+
 This guide will walk you through setting up and using our powerful n8n-based marketing
 automation system.
 
@@ -133,19 +137,28 @@ Troubleshooting
 
 Issue Solution
 
-Workflow not triggering Check Telegram bot token and webhook
+Workflow not triggering Check Telegram bot token and webhook  settings
 
-settings
+Poor quality content 
 
-Poor quality content Refine GPT prompts and increase context
+Refine GPT prompts and increase context length
 
-length
+Image generation fails 
 
-Image generation fails Verify PIAPI key and endpoint URL
-Distribution errors Check platform authentication credentials
-Missing logs Confirm Google Sheets access permissions
+Verify PIAPI key and endpoint URL
+
+Distribution errors 
+
+Check platform authentication credentials
+
+Missing logs 
+
+Confirm Google Sheets access permissions
+
+
 
 Performance Metrics
+
 Track these key metrics in your Google Sheets log:
 ● Content generation time
 ● Distribution success rate
